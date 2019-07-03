@@ -4,7 +4,9 @@
   "description": "Wrapper around nock-vcr-recorder to simplify creating vcr cassettes in mocha.",
   "main": "index.js",
   "scripts": {
-    "test": "rm -rf cassettes && node_modules/mocha/bin/mocha -r test/_helper.js test/*-test.js "
+    "test": "rm -rf cassettes && node_modules/mocha/bin/mocha -r test/_helper.js test/*-test.js ",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,11 +29,13 @@
   "dependencies": {
     "nock-vcr-recorder": "^0.1.5",
     "rsvp": "^4.8.4",
-    "slug": "^0.9.3"
+    "slug": "^0.9.3",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "express": "^4.16.4",
     "mocha": "^5.2.0",
     "request": "^2.88.0"
-  }
+  },
+  "snyk": true
 }
