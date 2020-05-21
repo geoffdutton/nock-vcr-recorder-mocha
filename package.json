@@ -26,7 +26,7 @@
   "homepage": "https://github.com/poetic/nock-vcr-recorder-mocha",
   "dependencies": {
     "nock-vcr-recorder": "^0.1.5",
-    "rsvp": "^4.8.4",
+    "rsvp": "^4.8.5",
     "slug": "^0.9.3"
   },
   "devDependencies": {
