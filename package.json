@@ -27,7 +27,7 @@
   "dependencies": {
     "nock-vcr-recorder": "^0.1.5",
     "rsvp": "^4.8.4",
-    "slug": "^0.9.3"
+    "slug": "^0.9.4"
   },
   "devDependencies": {
     "express": "^4.16.4",
